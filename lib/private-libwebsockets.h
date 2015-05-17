@@ -250,7 +250,7 @@ typedef unsigned __int64 u_int64_t;
 #endif
 
 #ifndef LWS_MAX_HEADER_LEN
-#define LWS_MAX_HEADER_LEN 1024
+#define LWS_MAX_HEADER_LEN (1024 * 8)
 #endif
 #ifndef LWS_MAX_PROTOCOLS
 #define LWS_MAX_PROTOCOLS 5
